@@ -60,7 +60,6 @@ public class ClientHandler {
                     while (true) {
                         String str = in.readUTF();
 
-
                         if (str.equals("/end")) {
                             sendMsg("/end");
                             break;

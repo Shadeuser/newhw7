@@ -7,7 +7,6 @@ import java.net.Socket;
 import java.util.List;
 import java.util.Vector;
 
-
 public class Server {
     private List<ClientHandler> clients;
     private AuthService authService;
