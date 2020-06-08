@@ -17,6 +17,7 @@ public class SimpleAuthService implements AuthService {
         }
     }
 
+
     private List<UserData> users;
 
     public SimpleAuthService() {
